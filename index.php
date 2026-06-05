@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexGen CMS | Home</title>
+    <link rel="icon" href="./images/favicon.png" />
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
@@ -32,9 +33,9 @@
 
     <main class="page__main">
         <section class="hero">
-            <span class="hero__badge">W3C Compliant & Responsive</span>
-            <h1 class="hero__title">Manage your files with absolute precision.</h1>
-            <p class="hero__text">A completely custom, file-based content management system built with clean PHP OOP and strictly adhering to the BEM CSS methodology.</p>
+            <span class="hero__badge">fast and secure</span>
+            <h1 class="hero__title">Manage your files with absolute precision</h1>
+            <p class="hero__text">this file storage website is so cool and unique that, I just cant hold myself together, this is the best website in the world, also I would like to make this text long, because large descriptions look more professional</p>
             <?php if(!$auth->isLoggedIn()): ?>
                 <a href="register.php" class="btn btn--primary" style="padding: 1.2rem 2.5rem; font-size: 1.1rem;">Create Free Account</a>
             <?php endif; ?>

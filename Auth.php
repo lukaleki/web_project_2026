@@ -15,6 +15,7 @@ class Auth {
             if ($user['email'] === $email) return false;
         }
         
+        // if there are no users, first one will be admin
         $role = (count($users) === 0) ? 'admin' : 'user';
         
         $users[] = [
